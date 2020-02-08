@@ -1,7 +1,7 @@
 package firstpackage;
 
 import java.util.Scanner;
-public class implement {
+public class  implement {
     public static void main( String [] args){
         Scanner myScanner=new Scanner( System.in);
         System.out.println("Please enter a year");
