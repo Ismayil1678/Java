@@ -1,5 +1,4 @@
 package newclass;
-
 public class operation {
     /*public static void main(String [] args){
         System.out.println(4+2.36);

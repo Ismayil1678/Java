@@ -1,5 +1,4 @@
 package newclass;
-
 public class newotomatic {
    /* public static void main( String []args){
         boolean a=true;

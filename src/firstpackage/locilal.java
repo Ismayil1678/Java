@@ -1,5 +1,4 @@
 package firstpackage;
-
 public class locilal{
 public static void main(String []args){
     char a='a';

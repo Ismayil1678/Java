@@ -6,19 +6,25 @@ import java.util.Scanner;
         System.out.println(" Enter a java ");
         int a = scanner.nextInt();
         int  java =65;
-        if ( java<0 && java>50) {
+        if ( java<=0 && java<=50) {
             System.out.println("fail");
-        }else if(java>50 && java<59) {
+        }
+        else if(java>50 && java<59) {
             System.out.println("D");
-        }else if(java>60&& java<69) {
+        }
+        else if(java>60&& java<69) {
             System.out.println("C");
-        }else if(java>70&& java<79) {
+        }
+        else if(java>70&& java<79) {
             System.out.println("B");
-        }else if(java>80&& java<89) {
+        }
+        else if(java>80&& java<89) {
             System.out.println("A");
-        }else if(java>90&& java<100) {
-        }else
-            System.out.println("dont java");
+        }
+        else if(java>90&& java<100) {
+        }
+        else
+            System.out.println("don t java");
 
         }
 

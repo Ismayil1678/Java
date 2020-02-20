@@ -8,11 +8,9 @@ public class consumption {
         double electricbill;
         if(myConsumption<501) {
             electricbill = myConsumption * 0.3;
-
         }
             else if(myConsumption<1000) {
               electricbill = myConsumption * 0.4;
-
         }
              else if(myConsumption<2000) {
             electricbill = myConsumption * .5;
@@ -20,12 +18,7 @@ public class consumption {
               else {
                electricbill=myConsumption*.6;
                 System.out.println(electricbill);
-
-
-
-
              }
-
 
             }
         }

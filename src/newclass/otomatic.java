@@ -1,5 +1,4 @@
 package newclass;
-
 public class otomatic {
   /*  public static void main( String[] args){
         //byte:64bit--8byte:

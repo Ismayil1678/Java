@@ -1,9 +1,4 @@
 package newclass;
-
-import org.w3c.dom.ls.LSOutput;
-
-import javax.crypto.spec.PSource;
-
 public class secondotomatic {
     public static void main( String [] args){
         double x=9.54;

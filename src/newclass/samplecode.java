@@ -1,10 +1,10 @@
 package newclass;
 public class samplecode {
     public static void main(String[] args) {
-        int monthrString = 6;
-        switch (monthrString){
+        int monthString = 6;
+        switch (monthString){
             case 1:
-                System.out.println("january");
+               System.out.println("january");
                 break;
             case 2:
                 System.out.println("february");
@@ -40,7 +40,7 @@ public class samplecode {
                 System.out.println("december");
                 break;
             default:
-                System.out.println("only9");
+                System.out.println("only6");
 
 
         }
