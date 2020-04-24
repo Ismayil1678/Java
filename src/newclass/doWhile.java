@@ -2,12 +2,12 @@ package newclass;
 
 public class doWhile {
     public static void main(String[] args) {
-        int countre=1;
+        int counter=1;
         do {
-            System.out.println(countre);
-            countre++;
+            System.out.println("counter"+counter);
+            counter++;
         }
-            while (countre <= 20) ;
+            while (counter<= 20) ;
 
 
 

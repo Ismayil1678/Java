@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class newloop {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("enter statring point");
+        System.out.print("enter starting point:");
         int start=scanner.nextInt();
-        System.out.println("enter end point");
+        System.out.print("enter end point:");
         int end=scanner.nextInt();
-        System.out.println("what you what to print");
-        for( int a=0;a<15;a++){
-            System.out.println( a);
+        System.out.print("what you what to print:");
+        String print=scanner.next();
+        for( int a=start;a<end;a++){
+            System.out.println(print);
         }
     }
 }

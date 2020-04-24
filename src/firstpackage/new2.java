@@ -10,7 +10,7 @@ import java.util.Scanner;
            if ((a + b > c) && (a + c > b) && (b + c > a)) {
            System.out.println("can from triangle");
        }else{
-           System.out.println("can not from traingle");
+           System.out.println("can not from triangle");
        }
 
    }

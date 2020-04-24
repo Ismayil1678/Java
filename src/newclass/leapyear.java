@@ -3,9 +3,8 @@ import java.util.Scanner;
     public class leapyear {
         public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        System.out.println(" Enter a java ");
-        int a = scanner.nextInt();
-        int  java =65;
+        System.out.print(" Enter a java: ");
+        int java = scanner.nextInt();
         if ( java<=0 && java<=50) {
             System.out.println("fail");
         }
@@ -22,6 +21,7 @@ import java.util.Scanner;
             System.out.println("A");
         }
         else if(java>90&& java<100) {
+            System.out.println("A+");
         }
         else
             System.out.println("don t java");
